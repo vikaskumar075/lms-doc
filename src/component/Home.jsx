@@ -14,7 +14,7 @@ const Home = () => {
         {lines.map((line, index) => (
           <React.Fragment key={index}>
             {line}
-            <br />
+            <br /> 
           </React.Fragment>
         ))}
       </div>
